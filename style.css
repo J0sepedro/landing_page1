@@ -1,16 +1,43 @@
 .container1{
     display: flex;
     justify-content: space-evenly;
+    background-color: #1F2937;
 }
+.container1 > div {
+    border: 1px solid black;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.container1 div:first-child {
+    flex-grow: 2;
+}
+/* ^^^^ I feel like I can make all this css much more compact later */
 .container2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 250px;
+    background-color: #1F2937;
 }
+.container2 > div {
+    border: 1px solid black;
+    flex: 1;
+    padding: 200px;
+    text-align: center;
+}
+/* separator*/
 .container3{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+.container3 > div {
+    border: 1px solid black;
+    flex: 1;
+    padding: 90px;
+    margin: 20px;
+    text-align: center;
+}
+/* separator*/
 .header{
     display:flex;
     justify-content: center;
@@ -29,10 +56,19 @@
 .container6 {
     display: flex;
     justify-content: center;
-    margin: 200px
+    margin: 360px
+}
+.container6 > div {
+    border: 1px solid black;
+    flex: 1;
+    text-align: center;
 }
 .copyright {
     display: flex;
     justify-content: center;
     margin-top: 300px;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: #1F2937;
+
 }
