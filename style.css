@@ -1,0 +1,27 @@
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 250px;
+}
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    margin: 150px;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    margin: 250px;
+}
+.container5{
+    display: flex;
+    justify-content: flex-end;
+}
