@@ -24,4 +24,15 @@
 .container5{
     display: flex;
     justify-content: flex-end;
+    padding-right: 450px;
+}
+.container6 {
+    display: flex;
+    justify-content: center;
+    margin: 200px
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
 }
