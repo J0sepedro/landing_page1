@@ -1,13 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .container1 {
     display: flex;
-    justify-content: space-evenly;
     padding: 15px;
+    background-color: pink;
+    align-items: ceneter;
 }
 /* ^ for the navigation bar */
 .container2 {
     display: flex;
     flex-direction: column;
     margin: 150px;
+    background-color: pink;
 }
 .container2 > .image {
     display: flex;
