@@ -1,65 +1,7 @@
-body {
+* {
     margin: 0;
     padding: 0;
+} 
+.navigation {
+    background-color: #1f2937;
 }
-.container1 {
-    display: flex;
-    padding: 15px;
-    background-color: pink;
-    align-items: ceneter;
-}
-/* ^ for the navigation bar */
-.container2 {
-    display: flex;
-    flex-direction: column;
-    margin: 150px;
-    background-color: pink;
-}
-.container2 > .image {
-    display: flex;
-    justify-content: flex-end;
-}
-/* for the title, subtitle, button and image */
-
-.title2 {
-    text-align: center;
-    margin: 30px;
-}
-.container3 {
-    display: flex;
-    justify-content: space-around;
-    margin: 150px;
-}
-/* ^ this is for the round images & title to them */
-
-.container4 {
-    display: flex;
-    justify-content: center;
-}
-.author {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 320px;
-}
-/* ^ this is for the quote and author layout */
-
-.container5 {
-    display: flex;
-    flex-direction: column;
-    margin: 150px;
-}
-.container5 .button2 {
-    display: flex;
-    justify-content: flex-end;
-}
-/* ^ this is the call to action, subtitle, button thing */ 
-
-.footer {
-    display: flex;
-    justify-content: center
-}
-
-
-
-
-
